@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下載我的應用</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .download-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        .instructions {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .instructions h2 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>歡迎下載我的應用</h1>
+        <p>點擊下方按鈕下載 APK：</p>
+        <a href="apk/your-app.apk" download class="download-button">
+            下載 APK
+        </a>
+        <p>或掃描下方二維碼：</p>
+        <div class="qr-code">
+            <img src="path-to-your-qr-code.png" alt="APK 下載二維碼" width="200">
+        </div>
+        <div class="instructions">
+            <h2>安裝指引</h2>
+            <ol>
+                <li>下載 APK 文件。</li>
+                <li>打開設備的「檔案管理」應用，找到下載的 APK 文件。</li>
+                <li>點擊 APK 文件開始安裝。</li>
+                <li>如果出現「禁止安裝未知來源應用」的提示，請前往「設定」>「安全性」，啟用「未知來源」選項。</li>
+                <li>完成安裝後，即可打開應用。</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
